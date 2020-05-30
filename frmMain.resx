@@ -120,7 +120,62 @@
   <metadata name="tlsMenu.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>17, 17</value>
   </metadata>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="openToolStripMenuItem.ShortcutKeys" type="System.Windows.Forms.Keys, System.Windows.Forms">
+    <value>Ctrl+O</value>
+  </data>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="openToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>186, 22</value>
+  </data>
+  <data name="openToolStripMenuItem.Text" xml:space="preserve">
+    <value>Open Project</value>
+  </data>
+  <data name="saveProjectToolStripMenuItem.ShortcutKeys" type="System.Windows.Forms.Keys, System.Windows.Forms">
+    <value>Ctrl+S</value>
+  </data>
+  <data name="saveProjectToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>186, 22</value>
+  </data>
+  <data name="saveProjectToolStripMenuItem.Text" xml:space="preserve">
+    <value>Save Project</value>
+  </data>
+  <data name="toolStripSeparator2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>183, 6</value>
+  </data>
+  <data name="quitToolStripMenuItem.ShortcutKeys" type="System.Windows.Forms.Keys, System.Windows.Forms">
+    <value>Alt+F4</value>
+  </data>
+  <data name="quitToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>186, 22</value>
+  </data>
+  <data name="quitToolStripMenuItem.Text" xml:space="preserve">
+    <value>Quit</value>
+  </data>
+  <data name="toolStripButton1.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAIDSURBVDhPpZLrS5NhGMb3j4SWh0oRQVExD4gonkDpg4hG
+        YKxG6WBogkMZKgPNCEVJFBGdGETEvgwyO9DJE5syZw3PIlPEE9pgBCLZ5XvdMB8Ew8gXbl54nuf63dd9
+        0OGSnwCahxbPRNPAPMw9Xpg6ZmF46kZZ0xSKzJPIrhpDWsVnpBhGkKx3nAX8Pv7z1zg8OoY/cITdn4fw
+        bf/C0kYAN3Ma/w3gWfZL5kzTKBxjWyK2DftwI9tyMYCZKXbNHaD91bLYJrDXsYbrWfUKwJrPE9M2M1Oc
+        VzOOpHI7Jr376Hi9ogHqFIANO0/MmmmbmSmm9a8ze+I4MrNWAdjtoJgWcx+PSzg166yZZ8xM8XvXDix9
+        c4jIqFYAjoriBV9AhEPv1mH/sonogha0afbZMMZz+yreTGyhpusHwtNNCsA5U1zS4BLxzJIfg299qO32
+        Ir7UJtZfftyATqeT+8o2D8JSjQrAJblrncYL7ZJ2+bfaFnC/1S1NjL3diRat7qrO7wLRP3HjWsojBeCo
+        mDEo5mNjuweFGvjWg2EBhCbpkW78htSHHwRyNdmgAFzPEee2iFkzayy2OLXzT4gr6UdUnlXrullsxxQ+
+        kx0g8BTA3aZlButjSTyjODq/WcQcW/B/Je4OQhLvKQDnzN1mp0nnkvAhR8VuMzNrpm1mpjgkoVwB/v8D
+        TgDQASA1MVpwzwAAAABJRU5ErkJggg==
+</value>
+  </data>
+  <data name="toolStripButton1.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value>Magenta</value>
+  </data>
+  <data name="toolStripButton1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>38, 22</value>
+  </data>
+  <data name="toolStripButton1.Text" xml:space="preserve">
+    <value>File</value>
+  </data>
   <data name="tlsMenu.Location" type="System.Drawing.Point, System.Drawing">
     <value>0, 0</value>
   </data>
@@ -146,43 +201,6 @@
   <data name="&gt;&gt;tlsMenu.ZOrder" xml:space="preserve">
     <value>1</value>
   </data>
-  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="tsmOpenProject.ShortcutKeys" type="System.Windows.Forms.Keys, System.Windows.Forms">
-    <value>Ctrl+O</value>
-  </data>
-  <data name="tsmOpenProject.Size" type="System.Drawing.Size, System.Drawing">
-    <value>186, 22</value>
-  </data>
-  <data name="tsmOpenProject.Text" xml:space="preserve">
-    <value>Open Project</value>
-  </data>
-  <data name="tsmSaveProject.ShortcutKeys" type="System.Windows.Forms.Keys, System.Windows.Forms">
-    <value>Ctrl+S</value>
-  </data>
-  <data name="tsmSaveProject.Size" type="System.Drawing.Size, System.Drawing">
-    <value>186, 22</value>
-  </data>
-  <data name="tsmSaveProject.Text" xml:space="preserve">
-    <value>Save Project</value>
-  </data>
-  <data name="tsmExport.ShortcutKeys" type="System.Windows.Forms.Keys, System.Windows.Forms">
-    <value>Ctrl+E</value>
-  </data>
-  <data name="tsmExport.Size" type="System.Drawing.Size, System.Drawing">
-    <value>186, 22</value>
-  </data>
-  <data name="tsmExport.Text" xml:space="preserve">
-    <value>Export</value>
-  </data>
-  <data name="toolStripSeparator1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>183, 6</value>
-  </data>
-  <data name="tsmExit.Size" type="System.Drawing.Size, System.Drawing">
-    <value>186, 22</value>
-  </data>
-  <data name="tsmExit.Text" xml:space="preserve">
-    <value>Exit</value>
-  </data>
   <data name="tsdFile.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
@@ -207,29 +225,17 @@
   <data name="tsdFile.Text" xml:space="preserve">
     <value>File</value>
   </data>
-  <data name="tsmGitCommit.Size" type="System.Drawing.Size, System.Drawing">
-    <value>118, 22</value>
+  <data name="toolStripSeparator1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>90, 6</value>
   </data>
-  <data name="tsmGitCommit.Text" xml:space="preserve">
-    <value>Commit</value>
+  <data name="tsmExit.Size" type="System.Drawing.Size, System.Drawing">
+    <value>93, 22</value>
   </data>
-  <data name="tsmGitPull.Size" type="System.Drawing.Size, System.Drawing">
-    <value>118, 22</value>
+  <data name="tsmExit.Text" xml:space="preserve">
+    <value>Exit</value>
   </data>
-  <data name="tsmGitPull.Text" xml:space="preserve">
-    <value>Pull</value>
-  </data>
-  <data name="tsmGitPush.Size" type="System.Drawing.Size, System.Drawing">
-    <value>118, 22</value>
-  </data>
-  <data name="tsmGitPush.Text" xml:space="preserve">
-    <value>Push</value>
-  </data>
-  <data name="tsmGitMerge.Size" type="System.Drawing.Size, System.Drawing">
-    <value>118, 22</value>
-  </data>
-  <data name="tsmGitMerge.Text" xml:space="preserve">
-    <value>Merge</value>
+  <data name="tsmExport.Size" type="System.Drawing.Size, System.Drawing">
+    <value>32, 19</value>
   </data>
   <data name="tsdGit.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -255,6 +261,30 @@
   <data name="tsdGit.Text" xml:space="preserve">
     <value>Git</value>
   </data>
+  <data name="tsmGitCommit.Size" type="System.Drawing.Size, System.Drawing">
+    <value>118, 22</value>
+  </data>
+  <data name="tsmGitCommit.Text" xml:space="preserve">
+    <value>Commit</value>
+  </data>
+  <data name="tsmGitPull.Size" type="System.Drawing.Size, System.Drawing">
+    <value>118, 22</value>
+  </data>
+  <data name="tsmGitPull.Text" xml:space="preserve">
+    <value>Pull</value>
+  </data>
+  <data name="tsmGitPush.Size" type="System.Drawing.Size, System.Drawing">
+    <value>118, 22</value>
+  </data>
+  <data name="tsmGitPush.Text" xml:space="preserve">
+    <value>Push</value>
+  </data>
+  <data name="tsmGitMerge.Size" type="System.Drawing.Size, System.Drawing">
+    <value>118, 22</value>
+  </data>
+  <data name="tsmGitMerge.Text" xml:space="preserve">
+    <value>Merge</value>
+  </data>
   <metadata name="fbdOpenProject.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>112, 17</value>
   </metadata>
@@ -263,6 +293,42 @@
   </data>
   <data name="grbMap.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Top, Bottom, Left</value>
+  </data>
+  <data name="&gt;&gt;trvMapView.Name" xml:space="preserve">
+    <value>trvMapView</value>
+  </data>
+  <data name="&gt;&gt;trvMapView.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TreeView, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;trvMapView.Parent" xml:space="preserve">
+    <value>grbMap</value>
+  </data>
+  <data name="&gt;&gt;trvMapView.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="grbMap.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 28</value>
+  </data>
+  <data name="grbMap.Size" type="System.Drawing.Size, System.Drawing">
+    <value>200, 410</value>
+  </data>
+  <data name="grbMap.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="grbMap.Text" xml:space="preserve">
+    <value>Map</value>
+  </data>
+  <data name="&gt;&gt;grbMap.Name" xml:space="preserve">
+    <value>grbMap</value>
+  </data>
+  <data name="&gt;&gt;grbMap.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;grbMap.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;grbMap.ZOrder" xml:space="preserve">
+    <value>0</value>
   </data>
   <data name="trvMapView.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Top, Bottom, Left, Right</value>
@@ -321,50 +387,62 @@
   <data name="&gt;&gt;trvMapView.ZOrder" xml:space="preserve">
     <value>0</value>
   </data>
-  <data name="grbMap.Location" type="System.Drawing.Point, System.Drawing">
-    <value>12, 28</value>
-  </data>
-  <data name="grbMap.Size" type="System.Drawing.Size, System.Drawing">
-    <value>200, 410</value>
-  </data>
-  <data name="grbMap.TabIndex" type="System.Int32, mscorlib">
-    <value>2</value>
-  </data>
-  <data name="grbMap.Text" xml:space="preserve">
-    <value>Map</value>
-  </data>
-  <data name="&gt;&gt;grbMap.Name" xml:space="preserve">
-    <value>grbMap</value>
-  </data>
-  <data name="&gt;&gt;grbMap.Type" xml:space="preserve">
-    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;grbMap.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;grbMap.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
   <data name="grbMapConfig.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Top, Bottom, Left, Right</value>
   </data>
-  <data name="grbDescription.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Bottom, Left, Right</value>
+  <data name="&gt;&gt;grbDescription.Name" xml:space="preserve">
+    <value>grbDescription</value>
   </data>
-  <data name="rtbDescription.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Top, Bottom, Left, Right</value>
+  <data name="&gt;&gt;grbDescription.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="rtbDescription.Location" type="System.Drawing.Point, System.Drawing">
-    <value>6, 19</value>
+  <data name="&gt;&gt;grbDescription.Parent" xml:space="preserve">
+    <value>grbMapConfig</value>
   </data>
-  <data name="rtbDescription.Size" type="System.Drawing.Size, System.Drawing">
-    <value>545, 112</value>
-  </data>
-  <data name="rtbDescription.TabIndex" type="System.Int32, mscorlib">
+  <data name="&gt;&gt;grbDescription.ZOrder" xml:space="preserve">
     <value>0</value>
   </data>
-  <data name="rtbDescription.Text" xml:space="preserve">
-    <value />
+  <data name="&gt;&gt;grbManifest.Name" xml:space="preserve">
+    <value>grbManifest</value>
+  </data>
+  <data name="&gt;&gt;grbManifest.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;grbManifest.Parent" xml:space="preserve">
+    <value>grbMapConfig</value>
+  </data>
+  <data name="&gt;&gt;grbManifest.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="grbMapConfig.Location" type="System.Drawing.Point, System.Drawing">
+    <value>218, 28</value>
+  </data>
+  <data name="grbMapConfig.Size" type="System.Drawing.Size, System.Drawing">
+    <value>570, 410</value>
+  </data>
+  <data name="grbMapConfig.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="grbMapConfig.Text" xml:space="preserve">
+    <value>Map Config</value>
+  </data>
+  <data name="grbMapConfig.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;grbMapConfig.Name" xml:space="preserve">
+    <value>grbMapConfig</value>
+  </data>
+  <data name="&gt;&gt;grbMapConfig.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;grbMapConfig.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;grbMapConfig.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="grbDescription.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Left, Right</value>
   </data>
   <data name="&gt;&gt;rtbDescription.Name" xml:space="preserve">
     <value>rtbDescription</value>
@@ -402,8 +480,191 @@
   <data name="&gt;&gt;grbDescription.ZOrder" xml:space="preserve">
     <value>0</value>
   </data>
+  <data name="rtbDescription.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Left, Right</value>
+  </data>
+  <data name="rtbDescription.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 19</value>
+  </data>
+  <data name="rtbDescription.Size" type="System.Drawing.Size, System.Drawing">
+    <value>545, 112</value>
+  </data>
+  <data name="rtbDescription.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="rtbDescription.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;rtbDescription.Name" xml:space="preserve">
+    <value>rtbDescription</value>
+  </data>
+  <data name="&gt;&gt;rtbDescription.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RichTextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;rtbDescription.Parent" xml:space="preserve">
+    <value>grbDescription</value>
+  </data>
+  <data name="&gt;&gt;rtbDescription.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
   <data name="grbManifest.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Top, Bottom, Left, Right</value>
+  </data>
+  <data name="&gt;&gt;btnChangeIcon.Name" xml:space="preserve">
+    <value>btnChangeIcon</value>
+  </data>
+  <data name="&gt;&gt;btnChangeIcon.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnChangeIcon.Parent" xml:space="preserve">
+    <value>grbManifest</value>
+  </data>
+  <data name="&gt;&gt;btnChangeIcon.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;picIcon.Name" xml:space="preserve">
+    <value>picIcon</value>
+  </data>
+  <data name="&gt;&gt;picIcon.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;picIcon.Parent" xml:space="preserve">
+    <value>grbManifest</value>
+  </data>
+  <data name="&gt;&gt;picIcon.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;lblIcon.Name" xml:space="preserve">
+    <value>lblIcon</value>
+  </data>
+  <data name="&gt;&gt;lblIcon.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblIcon.Parent" xml:space="preserve">
+    <value>grbManifest</value>
+  </data>
+  <data name="&gt;&gt;lblIcon.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;txtCategories.Name" xml:space="preserve">
+    <value>txtCategories</value>
+  </data>
+  <data name="&gt;&gt;txtCategories.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtCategories.Parent" xml:space="preserve">
+    <value>grbManifest</value>
+  </data>
+  <data name="&gt;&gt;txtCategories.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;lblCategories.Name" xml:space="preserve">
+    <value>lblCategories</value>
+  </data>
+  <data name="&gt;&gt;lblCategories.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblCategories.Parent" xml:space="preserve">
+    <value>grbManifest</value>
+  </data>
+  <data name="&gt;&gt;lblCategories.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;txtAuthor.Name" xml:space="preserve">
+    <value>txtAuthor</value>
+  </data>
+  <data name="&gt;&gt;txtAuthor.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtAuthor.Parent" xml:space="preserve">
+    <value>grbManifest</value>
+  </data>
+  <data name="&gt;&gt;txtAuthor.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;lblAuthor.Name" xml:space="preserve">
+    <value>lblAuthor</value>
+  </data>
+  <data name="&gt;&gt;lblAuthor.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblAuthor.Parent" xml:space="preserve">
+    <value>grbManifest</value>
+  </data>
+  <data name="&gt;&gt;lblAuthor.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;txtDisplayName.Name" xml:space="preserve">
+    <value>txtDisplayName</value>
+  </data>
+  <data name="&gt;&gt;txtDisplayName.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtDisplayName.Parent" xml:space="preserve">
+    <value>grbManifest</value>
+  </data>
+  <data name="&gt;&gt;txtDisplayName.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;lblDisplayName.Name" xml:space="preserve">
+    <value>lblDisplayName</value>
+  </data>
+  <data name="&gt;&gt;lblDisplayName.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblDisplayName.Parent" xml:space="preserve">
+    <value>grbManifest</value>
+  </data>
+  <data name="&gt;&gt;lblDisplayName.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;txtPackageVersion.Name" xml:space="preserve">
+    <value>txtPackageVersion</value>
+  </data>
+  <data name="&gt;&gt;txtPackageVersion.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtPackageVersion.Parent" xml:space="preserve">
+    <value>grbManifest</value>
+  </data>
+  <data name="&gt;&gt;txtPackageVersion.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="&gt;&gt;lblPackageVersion.Name" xml:space="preserve">
+    <value>lblPackageVersion</value>
+  </data>
+  <data name="&gt;&gt;lblPackageVersion.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblPackageVersion.Parent" xml:space="preserve">
+    <value>grbManifest</value>
+  </data>
+  <data name="&gt;&gt;lblPackageVersion.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="grbManifest.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 19</value>
+  </data>
+  <data name="grbManifest.Size" type="System.Drawing.Size, System.Drawing">
+    <value>558, 241</value>
+  </data>
+  <data name="grbManifest.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="grbManifest.Text" xml:space="preserve">
+    <value>Manifest</value>
+  </data>
+  <data name="&gt;&gt;grbManifest.Name" xml:space="preserve">
+    <value>grbManifest</value>
+  </data>
+  <data name="&gt;&gt;grbManifest.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;grbManifest.Parent" xml:space="preserve">
+    <value>grbMapConfig</value>
+  </data>
+  <data name="&gt;&gt;grbManifest.ZOrder" xml:space="preserve">
+    <value>1</value>
   </data>
   <data name="btnChangeIcon.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
@@ -696,57 +957,6 @@
   <data name="&gt;&gt;lblPackageVersion.ZOrder" xml:space="preserve">
     <value>10</value>
   </data>
-  <data name="grbManifest.Location" type="System.Drawing.Point, System.Drawing">
-    <value>6, 19</value>
-  </data>
-  <data name="grbManifest.Size" type="System.Drawing.Size, System.Drawing">
-    <value>558, 241</value>
-  </data>
-  <data name="grbManifest.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
-  </data>
-  <data name="grbManifest.Text" xml:space="preserve">
-    <value>Manifest</value>
-  </data>
-  <data name="&gt;&gt;grbManifest.Name" xml:space="preserve">
-    <value>grbManifest</value>
-  </data>
-  <data name="&gt;&gt;grbManifest.Type" xml:space="preserve">
-    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;grbManifest.Parent" xml:space="preserve">
-    <value>grbMapConfig</value>
-  </data>
-  <data name="&gt;&gt;grbManifest.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="grbMapConfig.Location" type="System.Drawing.Point, System.Drawing">
-    <value>218, 28</value>
-  </data>
-  <data name="grbMapConfig.Size" type="System.Drawing.Size, System.Drawing">
-    <value>570, 410</value>
-  </data>
-  <data name="grbMapConfig.TabIndex" type="System.Int32, mscorlib">
-    <value>3</value>
-  </data>
-  <data name="grbMapConfig.Text" xml:space="preserve">
-    <value>Map Config</value>
-  </data>
-  <data name="grbMapConfig.Visible" type="System.Boolean, mscorlib">
-    <value>False</value>
-  </data>
-  <data name="&gt;&gt;grbMapConfig.Name" xml:space="preserve">
-    <value>grbMapConfig</value>
-  </data>
-  <data name="&gt;&gt;grbMapConfig.Type" xml:space="preserve">
-    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;grbMapConfig.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;grbMapConfig.ZOrder" xml:space="preserve">
-    <value>2</value>
-  </data>
   <metadata name="ofdModIcon.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>250, 17</value>
   </metadata>
@@ -755,6 +965,162 @@
   </data>
   <data name="grbSectorsConfig.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Top, Bottom, Left, Right</value>
+  </data>
+  <data name="&gt;&gt;btnScanSectors.Name" xml:space="preserve">
+    <value>btnScanSectors</value>
+  </data>
+  <data name="&gt;&gt;btnScanSectors.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnScanSectors.Parent" xml:space="preserve">
+    <value>grbSectorsConfig</value>
+  </data>
+  <data name="&gt;&gt;btnScanSectors.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;btnRemoveAllSectors.Name" xml:space="preserve">
+    <value>btnRemoveAllSectors</value>
+  </data>
+  <data name="&gt;&gt;btnRemoveAllSectors.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnRemoveAllSectors.Parent" xml:space="preserve">
+    <value>grbSectorsConfig</value>
+  </data>
+  <data name="&gt;&gt;btnRemoveAllSectors.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;btnDumpSector.Name" xml:space="preserve">
+    <value>btnDumpSector</value>
+  </data>
+  <data name="&gt;&gt;btnDumpSector.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnDumpSector.Parent" xml:space="preserve">
+    <value>grbSectorsConfig</value>
+  </data>
+  <data name="&gt;&gt;btnDumpSector.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;btnDumpAllSectors.Name" xml:space="preserve">
+    <value>btnDumpAllSectors</value>
+  </data>
+  <data name="&gt;&gt;btnDumpAllSectors.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnDumpAllSectors.Parent" xml:space="preserve">
+    <value>grbSectorsConfig</value>
+  </data>
+  <data name="&gt;&gt;btnDumpAllSectors.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;btnRemoveSector.Name" xml:space="preserve">
+    <value>btnRemoveSector</value>
+  </data>
+  <data name="&gt;&gt;btnRemoveSector.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnRemoveSector.Parent" xml:space="preserve">
+    <value>grbSectorsConfig</value>
+  </data>
+  <data name="&gt;&gt;btnRemoveSector.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;btnAddSector.Name" xml:space="preserve">
+    <value>btnAddSector</value>
+  </data>
+  <data name="&gt;&gt;btnAddSector.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnAddSector.Parent" xml:space="preserve">
+    <value>grbSectorsConfig</value>
+  </data>
+  <data name="&gt;&gt;btnAddSector.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;lsbSectors.Name" xml:space="preserve">
+    <value>lsbSectors</value>
+  </data>
+  <data name="&gt;&gt;lsbSectors.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ListBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lsbSectors.Parent" xml:space="preserve">
+    <value>grbSectorsConfig</value>
+  </data>
+  <data name="&gt;&gt;lsbSectors.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;lblSectors.Name" xml:space="preserve">
+    <value>lblSectors</value>
+  </data>
+  <data name="&gt;&gt;lblSectors.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblSectors.Parent" xml:space="preserve">
+    <value>grbSectorsConfig</value>
+  </data>
+  <data name="&gt;&gt;lblSectors.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;btnBrowseBase.Name" xml:space="preserve">
+    <value>btnBrowseBase</value>
+  </data>
+  <data name="&gt;&gt;btnBrowseBase.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnBrowseBase.Parent" xml:space="preserve">
+    <value>grbSectorsConfig</value>
+  </data>
+  <data name="&gt;&gt;btnBrowseBase.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;txtATSBase.Name" xml:space="preserve">
+    <value>txtATSBase</value>
+  </data>
+  <data name="&gt;&gt;txtATSBase.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtATSBase.Parent" xml:space="preserve">
+    <value>grbSectorsConfig</value>
+  </data>
+  <data name="&gt;&gt;txtATSBase.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="&gt;&gt;lblATSBase.Name" xml:space="preserve">
+    <value>lblATSBase</value>
+  </data>
+  <data name="&gt;&gt;lblATSBase.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblATSBase.Parent" xml:space="preserve">
+    <value>grbSectorsConfig</value>
+  </data>
+  <data name="&gt;&gt;lblATSBase.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="grbSectorsConfig.Location" type="System.Drawing.Point, System.Drawing">
+    <value>218, 28</value>
+  </data>
+  <data name="grbSectorsConfig.Size" type="System.Drawing.Size, System.Drawing">
+    <value>570, 410</value>
+  </data>
+  <data name="grbSectorsConfig.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="grbSectorsConfig.Text" xml:space="preserve">
+    <value>Sectors Config</value>
+  </data>
+  <data name="&gt;&gt;grbSectorsConfig.Name" xml:space="preserve">
+    <value>grbSectorsConfig</value>
+  </data>
+  <data name="&gt;&gt;grbSectorsConfig.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;grbSectorsConfig.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;grbSectorsConfig.ZOrder" xml:space="preserve">
+    <value>3</value>
   </data>
   <data name="btnScanSectors.Location" type="System.Drawing.Point, System.Drawing">
     <value>483, 102</value>
@@ -1049,30 +1415,6 @@
   </data>
   <data name="&gt;&gt;lblATSBase.ZOrder" xml:space="preserve">
     <value>10</value>
-  </data>
-  <data name="grbSectorsConfig.Location" type="System.Drawing.Point, System.Drawing">
-    <value>218, 28</value>
-  </data>
-  <data name="grbSectorsConfig.Size" type="System.Drawing.Size, System.Drawing">
-    <value>570, 410</value>
-  </data>
-  <data name="grbSectorsConfig.TabIndex" type="System.Int32, mscorlib">
-    <value>4</value>
-  </data>
-  <data name="grbSectorsConfig.Text" xml:space="preserve">
-    <value>Sectors Config</value>
-  </data>
-  <data name="&gt;&gt;grbSectorsConfig.Name" xml:space="preserve">
-    <value>grbSectorsConfig</value>
-  </data>
-  <data name="&gt;&gt;grbSectorsConfig.Type" xml:space="preserve">
-    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;grbSectorsConfig.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;grbSectorsConfig.ZOrder" xml:space="preserve">
-    <value>3</value>
   </data>
   <metadata name="fbdATSBase.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>369, 17</value>
@@ -1533,29 +1875,41 @@
   <data name="$this.Text" xml:space="preserve">
     <value>50 United Map Tool</value>
   </data>
+  <data name="&gt;&gt;toolStripButton1.Name" xml:space="preserve">
+    <value>toolStripButton1</value>
+  </data>
+  <data name="&gt;&gt;toolStripButton1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripDropDownButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;openToolStripMenuItem.Name" xml:space="preserve">
+    <value>openToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;openToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;saveProjectToolStripMenuItem.Name" xml:space="preserve">
+    <value>saveProjectToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;saveProjectToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;toolStripSeparator2.Name" xml:space="preserve">
+    <value>toolStripSeparator2</value>
+  </data>
+  <data name="&gt;&gt;toolStripSeparator2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;quitToolStripMenuItem.Name" xml:space="preserve">
+    <value>quitToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;quitToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
   <data name="&gt;&gt;tsdFile.Name" xml:space="preserve">
     <value>tsdFile</value>
   </data>
   <data name="&gt;&gt;tsdFile.Type" xml:space="preserve">
     <value>System.Windows.Forms.ToolStripDropDownButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;tsmOpenProject.Name" xml:space="preserve">
-    <value>tsmOpenProject</value>
-  </data>
-  <data name="&gt;&gt;tsmOpenProject.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;tsmSaveProject.Name" xml:space="preserve">
-    <value>tsmSaveProject</value>
-  </data>
-  <data name="&gt;&gt;tsmSaveProject.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;tsmExport.Name" xml:space="preserve">
-    <value>tsmExport</value>
-  </data>
-  <data name="&gt;&gt;tsmExport.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;toolStripSeparator1.Name" xml:space="preserve">
     <value>toolStripSeparator1</value>
@@ -1567,6 +1921,12 @@
     <value>tsmExit</value>
   </data>
   <data name="&gt;&gt;tsmExit.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tsmExport.Name" xml:space="preserve">
+    <value>tsmExport</value>
+  </data>
+  <data name="&gt;&gt;tsmExport.Type" xml:space="preserve">
     <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;tsdGit.Name" xml:space="preserve">

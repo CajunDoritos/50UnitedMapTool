@@ -30,12 +30,15 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmMain));
             this.tlsMenu = new System.Windows.Forms.ToolStrip();
+            this.toolStripButton1 = new System.Windows.Forms.ToolStripDropDownButton();
+            this.openToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.saveProjectToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.toolStripSeparator2 = new System.Windows.Forms.ToolStripSeparator();
+            this.quitToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.tsdFile = new System.Windows.Forms.ToolStripDropDownButton();
-            this.tsmOpenProject = new System.Windows.Forms.ToolStripMenuItem();
-            this.tsmSaveProject = new System.Windows.Forms.ToolStripMenuItem();
-            this.tsmExport = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStripSeparator1 = new System.Windows.Forms.ToolStripSeparator();
             this.tsmExit = new System.Windows.Forms.ToolStripMenuItem();
+            this.tsmExport = new System.Windows.Forms.ToolStripMenuItem();
             this.tsdGit = new System.Windows.Forms.ToolStripDropDownButton();
             this.tsmGitCommit = new System.Windows.Forms.ToolStripMenuItem();
             this.tsmGitPull = new System.Windows.Forms.ToolStripMenuItem();
@@ -73,6 +76,7 @@
             this.txtATSBase = new System.Windows.Forms.TextBox();
             this.lblATSBase = new System.Windows.Forms.Label();
             this.fbdATSBase = new System.Windows.Forms.FolderBrowserDialog();
+            this.tlsMenu.SuspendLayout();
             this.grbMap.SuspendLayout();
             this.grbMapConfig.SuspendLayout();
             this.grbDescription.SuspendLayout();
@@ -84,37 +88,53 @@
             // tlsMenu
             // 
             this.tlsMenu.AllowDrop = true;
+            this.tlsMenu.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.toolStripButton1});
             resources.ApplyResources(this.tlsMenu, "tlsMenu");
             this.tlsMenu.Name = "tlsMenu";
+            // 
+            // toolStripButton1
+            // 
+            this.toolStripButton1.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Text;
+            this.toolStripButton1.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.openToolStripMenuItem,
+            this.saveProjectToolStripMenuItem,
+            this.toolStripSeparator2,
+            this.quitToolStripMenuItem});
+            resources.ApplyResources(this.toolStripButton1, "toolStripButton1");
+            this.toolStripButton1.Name = "toolStripButton1";
+            // 
+            // openToolStripMenuItem
+            // 
+            this.openToolStripMenuItem.Name = "openToolStripMenuItem";
+            resources.ApplyResources(this.openToolStripMenuItem, "openToolStripMenuItem");
+            this.openToolStripMenuItem.Click += new System.EventHandler(this.openToolStripMenuItem_Click);
+            // 
+            // saveProjectToolStripMenuItem
+            // 
+            this.saveProjectToolStripMenuItem.Name = "saveProjectToolStripMenuItem";
+            resources.ApplyResources(this.saveProjectToolStripMenuItem, "saveProjectToolStripMenuItem");
+            this.saveProjectToolStripMenuItem.Click += new System.EventHandler(this.tsmSaveProject_Click);
+            // 
+            // toolStripSeparator2
+            // 
+            this.toolStripSeparator2.Name = "toolStripSeparator2";
+            resources.ApplyResources(this.toolStripSeparator2, "toolStripSeparator2");
+            // 
+            // quitToolStripMenuItem
+            // 
+            this.quitToolStripMenuItem.Name = "quitToolStripMenuItem";
+            resources.ApplyResources(this.quitToolStripMenuItem, "quitToolStripMenuItem");
+            this.quitToolStripMenuItem.Click += new System.EventHandler(this.quitToolStripMenuItem_Click);
             // 
             // tsdFile
             // 
             this.tsdFile.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Text;
             this.tsdFile.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.tsmOpenProject,
-            this.tsmSaveProject,
-            this.tsmExport,
             this.toolStripSeparator1,
             this.tsmExit});
             resources.ApplyResources(this.tsdFile, "tsdFile");
             this.tsdFile.Name = "tsdFile";
-            // 
-            // tsmOpenProject
-            // 
-            this.tsmOpenProject.Name = "tsmOpenProject";
-            resources.ApplyResources(this.tsmOpenProject, "tsmOpenProject");
-            this.tsmOpenProject.Click += new System.EventHandler(this.openToolStripMenuItem_Click);
-            // 
-            // tsmSaveProject
-            // 
-            this.tsmSaveProject.Name = "tsmSaveProject";
-            resources.ApplyResources(this.tsmSaveProject, "tsmSaveProject");
-            this.tsmSaveProject.Click += new System.EventHandler(this.tsmSaveProject_Click);
-            // 
-            // tsmExport
-            // 
-            this.tsmExport.Name = "tsmExport";
-            resources.ApplyResources(this.tsmExport, "tsmExport");
             // 
             // toolStripSeparator1
             // 
@@ -126,6 +146,11 @@
             this.tsmExit.Name = "tsmExit";
             resources.ApplyResources(this.tsmExit, "tsmExit");
             this.tsmExit.Click += new System.EventHandler(this.exitToolStripMenuItem_Click);
+            // 
+            // tsmExport
+            // 
+            this.tsmExport.Name = "tsmExport";
+            resources.ApplyResources(this.tsmExport, "tsmExport");
             // 
             // tsdGit
             // 
@@ -389,6 +414,8 @@
             this.Name = "frmMain";
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.frmMain_FormClosing);
             this.Load += new System.EventHandler(this.frmMain_Load);
+            this.tlsMenu.ResumeLayout(false);
+            this.tlsMenu.PerformLayout();
             this.grbMap.ResumeLayout(false);
             this.grbMapConfig.ResumeLayout(false);
             this.grbDescription.ResumeLayout(false);
@@ -448,6 +475,11 @@
         private System.Windows.Forms.Button btnDumpAllSectors;
         private System.Windows.Forms.Button btnRemoveAllSectors;
         private System.Windows.Forms.Button btnScanSectors;
+        private System.Windows.Forms.ToolStripDropDownButton toolStripButton1;
+        private System.Windows.Forms.ToolStripMenuItem openToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem saveProjectToolStripMenuItem;
+        private System.Windows.Forms.ToolStripSeparator toolStripSeparator2;
+        private System.Windows.Forms.ToolStripMenuItem quitToolStripMenuItem;
     }
 }
 

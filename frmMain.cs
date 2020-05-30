@@ -515,5 +515,10 @@ namespace _50UnitedMapTool
                 MessageBox.Show("Faile to Scan Sectors", "ERROR", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
+
+        private void quitToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
     }
 }
