@@ -433,8 +433,6 @@
 
         private System.Windows.Forms.ToolStrip tlsMenu;
         private System.Windows.Forms.ToolStripDropDownButton tsdFile;
-        private System.Windows.Forms.ToolStripMenuItem tsmOpenProject;
-        private System.Windows.Forms.ToolStripMenuItem tsmSaveProject;
         private System.Windows.Forms.ToolStripMenuItem tsmExport;
         private System.Windows.Forms.ToolStripSeparator toolStripSeparator1;
         private System.Windows.Forms.ToolStripMenuItem tsmExit;

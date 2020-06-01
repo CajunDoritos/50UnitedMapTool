@@ -97,6 +97,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Common\CommonTools.cs" />
+    <Compile Include="Common\SIITools\SIIParser.cs" />
     <Compile Include="Common\SIITools\SIITools.cs" />
     <Compile Include="frmAddSector.cs">
       <SubType>Form</SubType>

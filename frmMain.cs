@@ -14,6 +14,7 @@
  * 
  */
 
+using _50UnitedMapTool.Common.SIITools;
 using System;
 using System.Collections.Generic;
 using System.IO;
@@ -80,6 +81,7 @@ namespace _50UnitedMapTool
             {
                 projectDir = Properties.Settings.Default.ProjectDirectory;
                 openProject(Properties.Settings.Default.ProjectDirectory);
+
             } else
             {
                 DialogResult result = fbdOpenProject.ShowDialog();
@@ -125,6 +127,8 @@ namespace _50UnitedMapTool
                 try
                 {
                     string manifest = reader.ReadToEnd();
+                    string JSON = SIIParser.parseSIIToJSONString(manifest);
+                    Console.WriteLine(JSON);
 
                     packageVersion = getBetween(manifest, "package_version: \"", "\"");
                     displayName = getBetween(manifest, "display_name: \"", "\"");
